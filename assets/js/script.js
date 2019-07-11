@@ -35,4 +35,7 @@
             }
         }
     });
+    $("#produtos").hover( function (e) {
+        $("#div-produto").show('slow');
+    });
 })(jQuery, window);

@@ -51,7 +51,12 @@
                         <ul class="nav navbar-nav">
                             <li><a href="">HOME</a></li>
                             <li><a href="">EMPRESA</a></li>
-                            <li><a href="">PRODUTOS</a></li>
+                            <li>
+                                <a href="" id="produtos">PRODUTOS</a>
+                                <div class="div-produto">
+                                    
+                                </div><!-- div-produto -->
+                            </li>
                             <li><a href="">NOVIDADES</a></li>
                             <li><a href="">CONTATO</a></li>
                             <li class="redes-sociais">
