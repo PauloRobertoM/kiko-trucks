@@ -52,9 +52,28 @@
                             <li><a href="">HOME</a></li>
                             <li><a href="">EMPRESA</a></li>
                             <li>
-                                <a href="" id="produtos">PRODUTOS</a>
-                                <div class="div-produto">
-                                    
+                                <a href="#" id="produtos">PRODUTOS</a>
+                                <div id="div-produto">
+                                    <ul>
+                                        <li><a href="" id="item1">Produto 1</a></li>
+                                        <li><a href="" id="item2">Produto 1</a></li>
+                                        <li><a href="" id="item3">Produto 1</a></li>
+                                        <li><a href="" id="item4">Produto 1</a></li>
+                                        <li><a href="" id="item5">Produto 1</a></li>
+                                        <li><a href="" id="item6">Produto 1</a></li>
+                                        <li><a href="" id="item7">Produto 1</a></li>
+                                        <li><a href="" id="item8">Produto 1</a></li>
+                                        <li><a href="" id="item9">Produto 1</a></li>
+                                    </ul>
+                                    <img class="hidden-xs" id="prod1" src="assets/images/vitrine.jpg" />
+                                    <img class="hidden-xs" id="prod2" src="assets/images/vitrine.jpg" />
+                                    <img class="hidden-xs" id="prod3" src="assets/images/vitrine.jpg" />
+                                    <img class="hidden-xs" id="prod4" src="assets/images/vitrine.jpg" />
+                                    <img class="hidden-xs" id="prod5" src="assets/images/vitrine.jpg" />
+                                    <img class="hidden-xs" id="prod6" src="assets/images/vitrine.jpg" />
+                                    <img class="hidden-xs" id="prod7" src="assets/images/vitrine.jpg" />
+                                    <img class="hidden-xs" id="prod8" src="assets/images/vitrine.jpg" />
+                                    <img class="hidden-xs" id="prod9" src="assets/images/vitrine.jpg" />
                                 </div><!-- div-produto -->
                             </li>
                             <li><a href="">NOVIDADES</a></li>

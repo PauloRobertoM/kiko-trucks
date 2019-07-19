@@ -94,6 +94,10 @@ ul.nav {
     display: flex;
     align-items: center;
 }
+ul.nav>li:first-child {
+    position: relative;
+    top: -2px;
+}
 ul.nav>li:after {
     content: "";
     width: 5px;
@@ -132,6 +136,51 @@ ul.nav>li>a:hover {
 }
 .redes-sociais a:hover .fa {
     color: #fff;
+}
+#div-produto {
+    display: none;
+    width: 600px;
+    height: 450px;
+    background: #1b1b1b;
+    position: absolute;
+    z-index: 20;
+    left: -240px;
+    margin-top: 52px;
+}
+#div-produto ul {
+    width: 30%;
+    height: 450px;
+    float: left;
+}
+#div-produto img {
+    width: 70%;
+    height: 450px;
+    object-fit: cover;
+    float: right;
+}
+#div-produto a {
+    font-size: 16px;
+    color: #fff;
+    padding: 13px 20px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #505050;
+}
+#div-produto a:hover {
+    background: #505050;
+}
+#div-produto a:last-child {
+    border-bottom: none;
+}
+#prod2,
+#prod3,
+#prod4,
+#prod5,
+#prod6,
+#prod7,
+#prod8,
+#prod9 {
+    display: none;
 }
 
 .vitrine .owl-dots {
@@ -379,6 +428,21 @@ footer li>a:hover {
     }
     .navbar-nav>li>a {
         padding: 15px 10px!important;
+    }
+    #div-produto {
+        width: 100%;
+        position: relative;
+        left: 0;
+        margin-top: 0;
+    }
+    #div-produto ul {
+        width: 100%;
+        float: none;
+    }
+    #div-produto a {
+        width: 100%;
+        justify-content: center;
+        border-bottom: 1px solid #505050!important;
     }
     .redes-sociais {
         justify-content: space-evenly;
