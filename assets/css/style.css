@@ -376,10 +376,10 @@ footer li>a:hover {
     color: #fff;
 }
 
-.modelos.interna img {
+.modelos.listagem img {
     width: 100%;
 }
-.modelos.interna .item {
+.modelos.listagem .item {
     margin-bottom: 30px;
 }
 .panel-default {
@@ -390,28 +390,32 @@ footer li>a:hover {
     height: 50px;
     display: flex;
     align-items: center;
+    background: #dcdcdc;
     padding-left: 0;
     padding-right: 0;
     cursor: pointer;
     border-radius: 5px;
     margin-bottom: 10px;
 }
-.panel-title {
+.panel-heading .panel-title {
+    font-size: 15px;
+    color: #1b1b1b!important;
     width: 100%;
+    margin: 0;
 }
 .accordion-toggle.collapsed {
-    font-size: 20px;
-    color: #fff;
+    font-size: 15px;
+    color: #1b1b1b!important;
     display: block;
     height: 50px;
-    background: #151544!important;
+    background: #dcdcdc!important;
     border-radius: 5px;
     padding: 14px 15px;
 }
 .accordion-toggle {
     font-size: 15px;
-    color: #1b1b1b!important;
-    background: #dcdcdc;
+    color: #b6ef1d!important;
+    background: #1b1b1b;
     display: block;
     height: 50px;
     border-radius: 5px;
@@ -421,13 +425,14 @@ footer li>a:hover {
     font-family: FontAwesome;
     content: "\f107";
     float: right;
-    color: #fff;
+    color: #b6ef1d;
     -webkit-transition: all .35s;
     -o-transition: all .35s;
     transition: all .35s;
 }
 .panel-heading .accordion-toggle.collapsed:after {
     content: "\f105";
+    color: #1b1b1b;
 }
 .panel-collapse {
     border-top: none;
@@ -440,18 +445,222 @@ footer li>a:hover {
     border-top-color: transparent;
 }
 .panel-body ul>li {
-    color: #575757;
-    margin-bottom: 5px;
-    list-style: initial;
-    list-style-position: inside;
+    color: #1b1b1b;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1b1b1b;
 }
 .panel-body ul>li>a {
     font-size: 16px;
     font-weight: bold;
-    color: #575757;
+    color: #1b1b1b;
 }
 .panel-body ul>li>a:hover {
-    color: #ef7311;
+    color: #b6ef1d;
+}
+
+.modelos.interna img {
+    width: 100%;
+}
+.modelos.interna .conteudo {
+    background: #1b1b1b;
+    padding: 50px 40px;
+    margin-bottom: 50px;
+}
+.modelos.interna h2 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #b6ef1d;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.modelos.interna h2:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #eeeeee;
+    margin-top: 10px;
+}
+.modelos.interna p {
+    font-size: 16px;
+    color: #fff;
+    margin: 0 0 15px;
+}
+
+.novidades.interna .itens {
+    display: block;
+}
+.novidades.interna .itens>div {
+    display: flex;
+    margin-bottom: 50px;
+}
+.novidades.interna .btn-confira {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    display: table;
+    border: 4px solid #b6ef1d;
+    padding: 10px 30px;
+    margin: 20px auto 0;
+}
+.novidades.interna .btn-confira:hover {
+    background: #b6ef1d;
+}
+
+.empresa {
+    padding: 60px 0;
+    background: #eeeeee;
+}
+.empresa h1 {
+    font-size: 34px;
+    font-weight: 800;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    width: fit-content;
+    border: 4px solid #b6ef1d;
+    padding: 5px 10px;
+    margin: 0 auto 40px;
+}
+.empresa .itens>div {
+    display: flex;
+}
+.empresa .item {
+    width: 50%;
+    height: 440px;
+}
+.empresa .itens>div:nth-child(2) .item:first-child,
+.empresa .item:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.empresa img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+.empresa h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    padding: 40px 30px;
+    margin: 0;
+}
+.empresa p {
+    font-size: 16px;
+    color: #1b1b1b;
+    padding: 40px 30px;
+    margin: 0;
+}
+.empresa .btn-confira {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    display: table;
+    border: 4px solid #b6ef1d;
+    padding: 10px 30px;
+    margin: 50px auto 0;
+}
+.empresa .btn-confira:hover {
+    background: #b6ef1d;
+}
+
+.contato {
+    padding: 60px 0;
+    background: #eeeeee;
+}
+.contato h1 {
+    font-size: 34px;
+    font-weight: 800;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    width: fit-content;
+    border: 4px solid #b6ef1d;
+    padding: 5px 10px;
+    margin: 0 auto 40px;
+}
+.contato label {
+    font-size: 14px;
+    color: #1b1b1b;
+    margin: 0;
+}
+.contato input.form-control {
+    font-size: 14px;
+    color: #1b1b1b;
+    height: 40px;
+    background: #dcdcdc;
+    border-radius: 0;
+    border: none;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.contato textarea.form-control {
+    font-size: 14px;
+    color: #1b1b1b;
+    height: 100px;
+    background: #dcdcdc;
+    border-radius: 0;
+    border: none;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.contato .item {
+    padding: 60px 40px 61px;
+    background: #1b1b1b;
+    margin-top: 20px;
+}
+.contato h2 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #b6ef1d;
+    text-transform: uppercase;
+    margin: 0 0 40px;
+}
+.contato h2:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #eeeeee;
+    margin-top: 10px;
+}
+.contato .it1 {
+    margin-bottom: 40px;
+}
+.contato h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+.contato p {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
+.contato .fa {
+    font-size: 20px;
+    color: #b6ef1d;
+    margin-right: 5px;
+}
+.contato button {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    display: table;
+    border: 4px solid #b6ef1d;
+    background: transparent;
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+.contato button:hover {
+    background: #b6ef1d;
 }
 
 /* --- MOBILE --- */
@@ -563,6 +772,45 @@ footer li>a:hover {
     }
     footer img {
         margin: 0 auto;
+    }
+    .novidades.interna .itens>div {
+        display: block;
+    }
+    .novidades.interna .btn-confira {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+    .empresa h2 {
+        font-size: 18px;
+    }
+    .empresa p {
+        font-size: 14px;
+    }
+    .empresa .itens>div {
+        display: block;
+    }
+    .empresa .item {
+        width: 100%;
+        height: auto;
+    }
+    .empresa .itens>div:nth-child(2) .item:first-child,
+    .empresa .item:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .empresa img {
+        height: auto;
+    }
+    .empresa .btn-confira {
+        font-size: 16px;
+        font-weight: 800;
+        color: #1b1b1b;
+        text-transform: uppercase;
+        display: table;
+        border: 4px solid #b6ef1d;
+        padding: 10px 30px;
+        margin: 50px auto 0;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {

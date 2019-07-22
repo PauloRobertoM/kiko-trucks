@@ -61,49 +61,33 @@
                     </div><!-- panel-group -->
 				</div><!-- col-md-3 col-sm-3 -->
 				<div class="col-md-9 col-sm-9">
+					<img src="assets/images/vitrine.jpg" alt="">
+					<div class="conteudo">
+						<h2>trailer para hamburguer</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div><!-- conteudo -->
 					<div class="row">
-						<div class="col-md-4 col-sm-4">
-							<div class="item">
-								<a href=""><figure><img src="assets/images/vitrine.jpg" alt=""></figure></a>
-								<a class="btn-mais">+</a>
-								<a href=""><h4>TRAILER PARA HAMBURGUER</h4></a>
-							</div><!-- item -->
-						</div><!-- col-md-4 col-sm-4 -->
-						<div class="col-md-4 col-sm-4">
-							<div class="item">
-								<a href=""><figure><img src="assets/images/vitrine.jpg" alt=""></figure></a>
-								<a class="btn-mais">+</a>
-								<a href=""><h4>TRAILER PARA HAMBURGUER</h4></a>
-							</div><!-- item -->
-						</div><!-- col-md-4 col-sm-4 -->
-						<div class="col-md-4 col-sm-4">
-							<div class="item">
-								<a href=""><figure><img src="assets/images/vitrine.jpg" alt=""></figure></a>
-								<a class="btn-mais">+</a>
-								<a href=""><h4>TRAILER PARA HAMBURGUER</h4></a>
-							</div><!-- item -->
-						</div><!-- col-md-4 col-sm-4 -->
-						<div class="col-md-4 col-sm-4">
-							<div class="item">
-								<a href=""><figure><img src="assets/images/vitrine.jpg" alt=""></figure></a>
-								<a class="btn-mais">+</a>
-								<a href=""><h4>TRAILER PARA HAMBURGUER</h4></a>
-							</div><!-- item -->
-						</div><!-- col-md-4 col-sm-4 -->
-						<div class="col-md-4 col-sm-4">
-							<div class="item">
-								<a href=""><figure><img src="assets/images/vitrine.jpg" alt=""></figure></a>
-								<a class="btn-mais">+</a>
-								<a href=""><h4>TRAILER PARA HAMBURGUER</h4></a>
-							</div><!-- item -->
-						</div><!-- col-md-4 col-sm-4 -->
-						<div class="col-md-4 col-sm-4">
-							<div class="item">
-								<a href=""><figure><img src="assets/images/vitrine.jpg" alt=""></figure></a>
-								<a class="btn-mais">+</a>
-								<a href=""><h4>TRAILER PARA HAMBURGUER</h4></a>
-							</div><!-- item -->
-						</div><!-- col-md-4 col-sm-4 -->
+						<div class="col-md-3 col-sm-3">
+							<a href="assets/images/vitrine.jpg" data-lightbox="album-1">
+	                            <figure><img src="assets/images/vitrine.jpg" alt="" /></figure>
+	                        </a>
+						</div><!-- md-3 -->
+						<div class="col-md-3 col-sm-3">
+							<a href="assets/images/vitrine.jpg" data-lightbox="album-1">
+	                            <figure><img src="assets/images/vitrine.jpg" alt="" /></figure>
+	                        </a>
+						</div><!-- md-3 -->
+						<div class="col-md-3 col-sm-3">
+							<a href="assets/images/vitrine.jpg" data-lightbox="album-1">
+	                            <figure><img src="assets/images/vitrine.jpg" alt="" /></figure>
+	                        </a>
+						</div><!-- md-3 -->
+						<div class="col-md-3 col-sm-3">
+							<a href="assets/images/vitrine.jpg" data-lightbox="album-1">
+	                            <figure><img src="assets/images/vitrine.jpg" alt="" /></figure>
+	                        </a>
+						</div><!-- md-3 -->
 					</div><!-- row -->
 				</div><!-- col-md-9 col-sm-9 -->
 			</div><!-- row -->
